@@ -1,0 +1,15 @@
+.match-info {
+    text-align: center;
+    padding: 10px 5px 15px 5px;
+    background: #1f3440;
+    color: #fff;
+}
+
+.match-info ul {
+    padding: 0;
+}
+
+.match-info ul li {
+    display: inline-block;
+    margin: 0 15px;
+}

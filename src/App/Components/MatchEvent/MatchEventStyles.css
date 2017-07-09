@@ -1,0 +1,25 @@
+.match-event {
+    padding: 15px 45px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.match-event:hover {
+    background: #f7f7f7;
+    box-shadow: inset 3px 0 0 rgb(204, 204, 204);
+}
+
+.match-event-time {
+    display: inline-block;
+    width: 36px;
+    height: 32px;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: bold;
+    border-right: 2px solid #e6e6e6;
+    margin-right: 10px;
+}
+
+.match-event-body {
+    line-height: 30px;
+}
