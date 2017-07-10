@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './MatchEventStyles.css';
-import CardEvent from './CardEvent/CardEvent.js';
+import './CardEventStyles.css';
+import '../MatchEventStyles.css';
 
 
-class MatchEvent extends Component {
+class CardEvent extends Component {
 
     constructor() {
         super();
@@ -11,13 +11,13 @@ class MatchEvent extends Component {
 
     render() {
 
-        if (this.props.data.type === 'card') {
-            return (<CardEvent data={this.props.data} />);
-        }
-
         return (
             <div className="match-event">
                 <div className="match-event-body">
+                    <div className={this.props.data.card.color.toLowerCase() + '-card-illus card-event-box'}>
+                        {this.props.data.card.name} - {this.props.data.card.color === 'red' ? 'Red' : 'Yellow'} Card
+                    </div>
+
                     <span className="match-event-time">{this.props.data.minute}</span>
                     {this.props.data.content}
                 </div>
@@ -27,4 +27,5 @@ class MatchEvent extends Component {
     }
 }
 
-export default MatchEvent;
+
+export default CardEvent;

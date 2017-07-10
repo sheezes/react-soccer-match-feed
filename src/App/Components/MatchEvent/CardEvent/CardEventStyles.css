@@ -1,0 +1,19 @@
+.card-event-box {
+    padding: 5px 15px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.yellow-card-illus {
+    box-shadow: inset 5px 0 0 #FFEB3B;
+    background: #ffface;
+    border-color: #dcd275;
+}
+
+.red-card-illus {
+    box-shadow: inset 5px 0 0 #bd1a0e;
+    background: #ffe1e1;
+    border-color: #a9241a;
+}

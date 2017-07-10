@@ -25,7 +25,7 @@ class MatchFeed extends Component {
 
     render() {
 
-        let matchEvents = this.state.matchEvents.map((v, i) => <MatchEvent key={i} feed={v} />);
+        let matchEvents = this.state.matchEvents.map((v, i) => <MatchEvent key={i} data={v} />);
 
         return (
             <div className="match-feed">
